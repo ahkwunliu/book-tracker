@@ -66,7 +66,7 @@ function Auth({ onLogin }) {
   return (
     <div style={{ background: '#f7f6f2', minHeight: '100vh' }}>
       <div style={s.authWrap}>
-        <div style={s.authTitle}>📚 书巢</div>
+        <div style={s.authTitle}>📚 Book Tracker</div>
         {err && <div style={s.error}>{err}</div>}
         {mode === 'register' && (
           <input style={s.authInput} placeholder="用户名" value={username} onChange={e => setUsername(e.target.value)} />
@@ -308,7 +308,7 @@ export default function App() {
     <div style={s.wrap}>
       <div style={s.header}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-          <div style={s.logo}>📚 书巢</div>
+          <div style={s.logo}>📚 Book Tracker</div>
           <button style={{ ...s.btnOutline, padding: '5px 12px', fontSize: 12 }} onClick={logout}>退出</button>
         </div>
         <div style={s.tabs}>
