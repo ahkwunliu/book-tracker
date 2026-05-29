@@ -1,7 +1,7 @@
 {
-  "name": "书巢",
-  "short_name": "书巢",
-  "description": "记录你的阅读旅程",
+  "name": "Book Tracker",
+  "short_name": "Book Tracker",
+  "description": "Track your reading journey",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
